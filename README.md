@@ -7,5 +7,5 @@ https://www.sheridantoastmasters.com/
 
 ## Authors
 
-* **Designed by Ben Reimer, Kiet Bui, and Zach Gray
+* **Designed by Ben Reimer, Kiet Bui, and Zach Gray**
 * **Coded by SeungChan Kim**

@@ -1,0 +1,560 @@
+@font-face {
+  font-family: 'GothamBold';
+  src: url(./font/Gotham\ Bold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'GothamBook';
+  src: url(./font/Gotham\ Book\ Regular.otf) format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: GothamBook;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* first row starts */
+.hero-logo {
+  margin-left: .2rem;
+}
+.navbar-brand {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.hero-content {
+  margin-top: 2.5rem;
+}
+.section-hero {
+  background: url(../img/zachHeroBG.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  max-height: 680px;
+  height: 680px;
+  overflow: hidden;
+}
+.typed-outer {
+  font-size: 1.125em;
+  color: #454545;
+}
+.typed-wrap {
+  display: flex;
+  align-items: baseline;
+  height: 118px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#goal {
+  font-family: GothamBold;
+  color: #FF792E;
+  font-size: 4.625em;
+}
+.typed-cursor {
+  font-size: 4.625em;
+  color: #FF792E;
+}
+.connect-form {
+  margin-top: 4.125rem;
+}
+.connect-form-outer {
+  font-size: 0.875em;
+  color: rgba(69,69,69,80%);
+}
+.form-control {
+  box-shadow: inset 0.8px 1.6px 5px rgb(151, 151, 151, 40%);
+  border: 0.3px solid rgb(151, 151, 151, 40%);
+}
+.form-control::placeholder {
+  color:#9D9D9D;
+  font-style: italic;
+}
+.form-email {
+  display: inline;
+  border-radius: 5px;
+}
+button {
+  background-color: #FF792E;
+  color: #fff;
+  width: 100%;
+}
+button:hover {
+  background-color: #c65d23;
+}
+input.form-email[type=submit] {
+  background-color: #FF792E;
+  color: #fff
+}
+input.form-email[type=submit]:hover{
+  background-color: #c65d23;
+}
+.time-link {
+  margin-top: 1.06rem;
+}
+.time-link a {
+  color: #FF792E;
+  text-decoration: underline;
+}
+/* first row ends */
+
+/* second row starts */
+.section-blueLogo {
+  max-height: 680px;
+  height: 680px;
+}
+#blueLogoBig, #blueLogoSmall {
+  margin-top: 6.125rem;
+}
+.blueLogo-title {
+  margin-top: 4.125rem;
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+  color: #194964;
+}
+#tmi {
+  font-family: GothamBold;
+}
+.blueLogo-content {
+  min-height: 3.875rem;
+  color: rgba(69, 69, 69, 0.8);
+}
+.blueLogo-content-center {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.blueLogo-learnMore {
+  margin-top: 1.5rem;
+}
+.blueLogo-learnMore a {
+  font-size: 0.875em;
+  color: #ff792e;
+  text-decoration: underline;
+}
+/* second row ends */
+
+/* third row starts */
+.section-advantages {
+  height: 710px;
+  background-color: rgba(25, 73, 100, 0.05);
+}
+.advantages-title {
+  margin-top: 5.625rem;
+  font-size: 1.5em;
+  color: #194964;
+}
+.advantages-title-header {
+  font-size: 2.5em;
+  font-family: GothamBold;
+  color: #194964;
+}
+.advantages-paragraph {
+  margin-top: 2rem;
+}
+.advantages-content-center {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.advantages-paragraph {
+  color: rgba(69, 69, 69, 0.8);
+}
+.advantages-second-row {
+  margin-top: 5.125rem;
+}
+.advantages-content-header {
+  margin-top: 1rem;
+  font-size: 1.125em;
+  font-family: GothamBold;
+  color: #194964;
+}
+.advantages-content-paragraph {
+  margin-top: 2.25rem;
+  font-size: 0.875em;
+  color: rgba(69, 69, 69, 0.8);
+}
+.advantages-second-row-col {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+/* third row ends */
+
+/* fourth row starts */
+.section-reference {
+  height: 620px;
+}
+.reference-title-wrap {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.reference-title {
+  margin-top: 5.625rem;
+  font-size: 1.5em;
+  color: #194964;
+}
+.reference-content {
+  margin-top: 3.625rem;
+}
+.reference-name {
+  margin-top: 2.375rem;
+  font-size: 1.2em;
+  color: rgba(69, 69, 69, 0.8);
+  font-family: GothamBold;
+}
+.reference-paragraph {
+  margin-top: 2.375rem;
+  font-size: 1em;
+  color: rgba(69, 69, 69, 0.8);
+  font-style: italic;
+}
+.slideShow .slick-slide {
+  outline:none;
+}
+button.slick-prev,
+button.slick-next {
+  background-color: transparent;
+  color:transparent;
+  width: 20px;
+  position: absolute;
+  border:none;
+  padding:0;
+  top:40%;
+  z-index:2;
+}
+button.slick-prev:focus,
+button.slick-next:focus {
+  outline:none;
+}
+button.slick-prev:hover,
+button.slick-next:hover {
+  cursor : pointer;
+}
+button.slick-prev {
+  left: -80px;
+}
+button.slick-next {
+  right: -80px;
+}
+.slick-prev:after {
+  content: "<";
+  color: #bbb;
+  font-size: 30px;
+  position:relative;
+}
+.slick-next:before {
+  content: ">";
+  color: #bbb;
+  font-size: 30px;
+  position: relative;
+}
+.slideShow .slick-slide img{
+  margin: 0 auto;
+  max-width: 80px;
+  max-height: 80px;
+}
+.slick-dots{
+  padding-left:0px;
+  margin-top: 15px;
+}
+.slick-dots li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.slick-dots li button{
+  background-color: #bbb;
+  outline:none;
+  cursor : pointer;
+}
+.slick-dots li.slick-active button{
+  background-color: #FF792E;
+}
+.slick-dots button {
+  padding:0;
+  width:8px;
+  height:8px;
+  border-radius:20px;
+}
+/* fourth row ends */
+
+/* fifth row starts */
+.section-becomeMember {
+  height: 500px;
+  background-color: rgba(25, 73, 100, 0.05);
+}
+.becomeMember-title {
+  margin-top: 8rem;
+  font-size: 1.5em;
+  color: #194964;
+}
+.becomeMember-title-header {
+  font-size: 2.5em;
+  font-family: GothamBold;
+  color: #194964;
+}
+.becomeMember-second-row {
+  margin-top: 4rem;
+}
+.becomeMember-content-header {
+  font-size: 1.125em;
+  font-family: GothamBold;
+  color: #194964;
+}
+.becomeMember-content-paragraph {
+  margin-top: 1rem;
+  font-size: 0.875em;
+  color: rgba(69, 69, 69, 0.8);
+}
+.becomeMember-second-row-col {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+/* fifth row ends */
+
+/* sixth row starts */
+.section-schedule {
+  height: 600px;
+}
+.schedule-title {
+  margin-top: 8.625rem;
+  font-size: 1.5em;
+  color: #194964;
+}
+.schedule-second-row {
+  margin-top: 4rem;
+}
+.schedule-content-header {
+  font-size: 1.125em;
+  font-family: GothamBold;
+  color: #194964;
+}
+.schedule-content-paragraph {
+  margin-top: 1rem;
+  font-size: 1em;
+  color: rgba(69, 69, 69, 0.8);
+}
+.meeting-info {
+  margin-top: 1.125rem;
+  padding-left: 0.5rem;
+  border-left: solid 3px rgba(255, 121, 46, 0.5);
+}
+.contact-email {
+  margin-top: 1.125rem;
+  display:block;
+  color: rgba(69, 69, 69, 0.8);
+}
+/* sixth row ends */
+
+/* last row starts */
+.section-footer {
+  height: 449px;
+  color: #fff;
+  background-color: #194964;
+}
+.footer-subheader {
+  font-size: 1.5em;
+}
+.footer-connect-form-outer {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 1.5rem;
+}
+.second-footer-subheader {
+  margin-top: 3.75rem;
+}
+.second-footer-subheader a {
+  color: #fff;
+}
+.helloEmail {
+  color: #FF792E;
+}
+.helloEmail:hover {
+  color: #c65d23;
+}
+/* last row ends */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .section-hero {
+    /* background-position-x: -70px; */
+    background-position-x: initial;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%,rgba(255,255,255,0.85) 100%), url(../img/zachHeroBG.png);
+  }
+  #logoBig {
+    display: none;
+  }
+  #goal {
+    font-size: 3.75em;
+  }
+  #blueLogoBig {
+    display: none;
+  }
+  .navbar-brand {
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
+  }
+  .blueLogo-title {
+    font-size: 1.375em;
+  }
+  .blueLogo-paragraph {
+    font-size: 0.875em;
+  }
+  .section-advantages {
+    height: 1500px;
+  }
+  .advantages-title {
+    font-size: 1.375em;
+  }
+  .advantages-title-header {
+    font-size: 2em;
+  }
+  .advantages-second-row {
+    margin-top: 0rem;
+  }
+  .advantages-second-row-col {
+    margin-top: 5.125rem;
+  }
+
+  .section-reference {
+    height: 670px;
+  }
+
+  .section-becomeMember {
+    height: 814px;
+  }
+  .becomeMember-title {
+    font-size: 1.375em;
+  }
+  .becomeMember-title-header {
+    font-size: 2em;
+  }
+  .becomeMember-second-row {
+    margin-top: 0rem;
+  }
+  .becomeMember-second-row-col {
+    margin-top: 3.75rem;
+  }
+
+  .section-schedule {
+    height: 1243px;
+  }
+  .schedule-title {
+    font-size: 1.375em;
+  }
+  .schedule-second-row-col {
+    margin-bottom: 4.875rem;
+  }
+  button.slick-prev {
+    left: -20px;
+  }
+  button.slick-next {
+    right: -20px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #logoBig {
+    display: none;
+  }
+  #blueLogoBig {
+    display: none;
+  }
+  .navbar-brand {
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
+  }
+  .section-advantages {
+    height: 1317px;
+  }
+  .advantages-title {
+    font-size: 1.375em;
+  }
+  .advantages-title-header {
+    font-size: 2em;
+  }
+  .advantages-second-row {
+    margin-top: 0rem;
+  }
+  .advantages-second-row-col {
+    margin-top: rem;
+  }
+
+  .section-reference {
+    height: 670px;
+  }
+
+  .section-becomeMember {
+    height: 814px;
+  }
+  .becomeMember-title {
+    font-size: 1.375em;
+  }
+  .becomeMember-title-header {
+    font-size: 2em;
+  }
+  .becomeMember-second-row {
+    margin-top: 0rem;
+  }
+  .becomeMember-second-row-col {
+    margin-top: 3.75rem;
+  }
+
+  .section-schedule {
+    height: 1043px;
+  }
+  .schedule-title {
+    font-size: 1.375em;
+  }
+  .schedule-second-row-col {
+    margin-bottom: 4.875rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #logoSmall {
+    display: none;
+  }
+  #blueLogoSmall {
+    display: none;
+  }
+  .advantages-second-row-col {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .becomeMember-second-row-col {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #logoSmall {
+    display: none;
+  }
+  #blueLogoSmall {
+    display: none;
+  }
+  .advantages-second-row-col {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .becomeMember-second-row-col {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #logoSmall {
+    display: none;
+  }
+  #blueLogoSmall {
+    display: none;
+  }
+  #space {
+    display: none;
+  }
+}
